@@ -1,0 +1,16 @@
+:host ::ng-deep .textbox-custom{
+    height: 32px;
+    margin-top: 2px;
+    padding-top: 2px;
+    margin-right: 5px;
+}
+:host ::ng-deep .dropdown-toggle, :host ::ng-deep .dorpdown-item{
+    cursor: pointer;
+}
+:host::ng-deep #btnLogin{
+    height: 34px;
+    padding-top: 3px;
+}
+:host ::ng-deep a.dorpdown-item {
+    padding: 10px;
+}
