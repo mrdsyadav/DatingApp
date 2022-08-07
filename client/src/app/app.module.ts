@@ -1,3 +1,4 @@
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
@@ -68,7 +69,8 @@ import { PaginationModule } from 'ngx-bootstrap/pagination';
     NgxSpinnerModule,
     FileUploadModule,
     BsDatepickerModule.forRoot(),
-    PaginationModule.forRoot()
+    PaginationModule.forRoot(),
+    ButtonsModule.forRoot()
   ],
   providers: [
     {provide:HTTP_INTERCEPTORS, useClass: ErrorInterceptor,multi:true},
