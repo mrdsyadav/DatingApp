@@ -1,3 +1,4 @@
+import { TimeagoModule } from 'ngx-timeago';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -70,7 +71,8 @@ import { PaginationModule } from 'ngx-bootstrap/pagination';
     FileUploadModule,
     BsDatepickerModule.forRoot(),
     PaginationModule.forRoot(),
-    ButtonsModule.forRoot()
+    ButtonsModule.forRoot(),
+    TimeagoModule.forRoot()
   ],
   providers: [
     {provide:HTTP_INTERCEPTORS, useClass: ErrorInterceptor,multi:true},
