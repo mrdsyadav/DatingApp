@@ -35,6 +35,7 @@ export class AccountService {
     )
   }
   setCurrentUser(user:User){
+    //console.log(JSON.stringify(user));
     localStorage.setItem('user',JSON.stringify(user));
     this.currentUserSource.next(user);
   }
