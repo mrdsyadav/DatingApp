@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mohan\\Others\\DotNetCoreAngular\\DatingApp\\api\\API.csproj": {}
+    "F:\\Mohan\\Others\\DotNetCoreAngular\\DatingApp\\api\\API.csproj": {}
   },
   "projects": {
-    "D:\\Mohan\\Others\\DotNetCoreAngular\\DatingApp\\api\\API.csproj": {
+    "F:\\Mohan\\Others\\DotNetCoreAngular\\DatingApp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mohan\\Others\\DotNetCoreAngular\\DatingApp\\api\\API.csproj",
+        "projectUniqueName": "F:\\Mohan\\Others\\DotNetCoreAngular\\DatingApp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Mohan\\Others\\DotNetCoreAngular\\DatingApp\\api\\API.csproj",
+        "projectPath": "F:\\Mohan\\Others\\DotNetCoreAngular\\DatingApp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Mohan\\Others\\DotNetCoreAngular\\DatingApp\\api\\obj\\",
+        "outputPath": "F:\\Mohan\\Others\\DotNetCoreAngular\\DatingApp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
