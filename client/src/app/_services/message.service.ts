@@ -30,6 +30,7 @@ export class MessageService {
     .build()
 
     this.hubConnection.start().catch(error=>console.log(error));
+    
     this.hubConnection.on("ReceiveMessageThread",message=>{
       this.messageThreadSource.next(message);
     });
